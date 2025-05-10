@@ -1,0 +1,29 @@
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# SQLite databases (if you're using one locally)
+*.sqlite3
+
+# macOS files
+.DS_Store
+
+# VSCode settings (if using VS Code)
+.vscode/
+
+# Elastic Beanstalk files (keep config YAMLs, ignore rest)
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
