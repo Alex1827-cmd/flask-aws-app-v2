@@ -1,13 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Input Form</title>
+    <meta charset="UTF-8" />
+    <title>{% block title %}Oral Surgery + Lake Charles{% endblock %}</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/styles.css') }}"
+    />
+    <!-- Include Bootstrap CSS if using -->
   </head>
   <body>
-    <h1>Enter Your Input Elizabeth</h1>
-    <form method="POST">
-      <input type="text" name="user_input" required />
-      <input type="submit" value="Submit" />
-    </form>
+    <header>
+      <!-- Navigation bar -->
+    </header>
+
+    <main>{% block content %} {% endblock %}</main>
+
+    <footer>
+      <!-- Footer content -->
+    </footer>
+
+    <!-- Include JavaScript files -->
   </body>
 </html>
